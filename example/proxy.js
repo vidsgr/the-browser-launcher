@@ -5,7 +5,10 @@ launcher(function startBrowser(initErr, launch) {
     return console.error(initErr);
   }
 
-  launch('http://google.com/', process.env.BROWSER || 'chrome', function afterLaunch(launchErr, instance) {
+  launch('http://google.com', {
+	browser: 'chrome',
+     proxy: '127.0.0.1:8001'
+}, function afterLaunch(launchErr, instance) {
     if (launchErr) {
       return console.error(launchErr);
     }

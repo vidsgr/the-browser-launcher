@@ -1,6 +1,8 @@
-### This project is in maintenance mode
+This is modified version of @james-proxy/james-browser-launcher with latest win-detect-browsers. Changes are made to allow Microsoft Edge browser. This version is tested on Windows 10, Ubuntu 20.04 and OSx.
 
-Maintainers or forks welcome: the original James team aren't able to spend the same amount of time on this library anymore.
+Following browsers detection are tested: Firefox, Chrome, Chromium, Inter Explorer, Microsoft Edge and Safari
+
+Proxy configuration are tested: Firefox, Chrome, Chromium and Microsoft Edge
 
 # james-browser-launcher [![Build Status](https://travis-ci.org/james-proxy/james-browser-launcher.svg?branch=master)](https://travis-ci.org/james-proxy/james-browser-launcher) [![Get it on npm](https://img.shields.io/npm/v/@james-proxy/james-browser-launcher.svg)](https://www.npmjs.com/package/@james-proxy/james-browser-launcher)
 
